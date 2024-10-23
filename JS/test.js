@@ -1,9 +1,18 @@
-// Execution
-let exc = 10+98;
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> VARIABLES / BINDINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+let var1 = 28; // variable declaration and assingning value. This type of variables can be changeable.
+const var2 = "Constant Value"; // This type of variable that not changeable.
+var var3 = true; // This type of variables is globlly scoped and changeable anywhere anytime.
+
+var4 = 809; // This is also a variable that automatically detects data type and store the value. But this type of variables not use commonly.
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Execution <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+const exc = 10+98;
 console.log(exc);
 console.log(typeof exc);
 
-// >>>>>>>> Data Types <<<<<<<<<<<<<<<<<  //
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Types <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  //
 
 // 1 Numbers (0,1,2,3,4,5,6,7,8,9....)
 
